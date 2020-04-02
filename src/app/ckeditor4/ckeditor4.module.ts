@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { CKEditorModule } from 'ckeditor4-angular';
 
 import { Ckeditor4RoutingModule } from './ckeditor4-routing.module';
@@ -9,6 +10,7 @@ import { Ckeditor4Component } from './ckeditor4/ckeditor4.component';
   declarations: [Ckeditor4Component],
   imports: [
     CommonModule,
+    FlexLayoutModule,
     CKEditorModule,
     Ckeditor4RoutingModule,
   ]
