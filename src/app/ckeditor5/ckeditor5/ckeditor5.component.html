@@ -1,8 +1,8 @@
 <div fxLayout="row" fxLayoutAlign="center">
   <p>ckeditor5</p>
 </div>
-<ckeditor [editor]="Editor" data="<p>Hello, world!</p>"></ckeditor>
+<ckeditor [editor]="Editor" [(ngModel)]="data"></ckeditor>
 <p>
   <span fxFlex></span>
-  <button>Submit</button>
+  <button (click)="submit()">Submit</button>
 </p>

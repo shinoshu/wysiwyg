@@ -8,5 +8,11 @@ import * as ClassicEditor from '@ckeditor/ckeditor5-build-classic';
   styleUrls: ['./ckeditor5.component.css']
 })
 export class Ckeditor5Component {
-  public Editor = ClassicEditor;
+  Editor = ClassicEditor;
+
+  data = '<p>Hello, world!</p>';
+
+  submit() {
+    alert(this.data);
+  }
 }

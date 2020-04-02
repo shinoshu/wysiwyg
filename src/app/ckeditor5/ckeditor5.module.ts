@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 
@@ -10,6 +11,7 @@ import { Ckeditor5Component } from './ckeditor5/ckeditor5.component';
   declarations: [Ckeditor5Component],
   imports: [
     CommonModule,
+    FormsModule,
     FlexLayoutModule,
     CKEditorModule,
     Ckeditor5RoutingModule,
