@@ -23,6 +23,7 @@
     "@angular/router": "~9.0.6",
     "@ckeditor/ckeditor5-angular": "^1.2.3",
     "@ckeditor/ckeditor5-build-classic": "^18.0.0",
+    "@ckeditor/ckeditor5-upload": "^18.0.0",
     "ckeditor4-angular": "^1.1.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
