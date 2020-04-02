@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-ckeditor4',
   templateUrl: './ckeditor4.component.html',
   styleUrls: ['./ckeditor4.component.css']
 })
-export class Ckeditor4Component implements OnInit {
+export class Ckeditor4Component {
+  data = '<p>Hello, world!</p>';
 
-  constructor() { }
-
-  ngOnInit(): void {
+  submit() {
+    alert(this.data);
   }
-
 }
