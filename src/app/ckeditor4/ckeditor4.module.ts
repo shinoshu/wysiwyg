@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CKEditorModule } from 'ckeditor4-angular';
 
+import { Ckeditor4RoutingModule } from './ckeditor4-routing.module';
 import { Ckeditor4Component } from './ckeditor4/ckeditor4.component';
 
 @NgModule({
@@ -9,6 +10,7 @@ import { Ckeditor4Component } from './ckeditor4/ckeditor4.component';
   imports: [
     CommonModule,
     CKEditorModule,
+    Ckeditor4RoutingModule,
   ]
 })
 export class Ckeditor4Module { }
